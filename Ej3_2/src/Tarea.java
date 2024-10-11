@@ -1,7 +1,7 @@
 import java.security.SecureRandom;
 
 public class Tarea implements Runnable{
-    private final int TIEMPO1 = 30;
+    private final int TIEMPO1 = 3000;
     private final int N_MENSAJES = 10;
     private SecureRandom random = new SecureRandom();
     @Override

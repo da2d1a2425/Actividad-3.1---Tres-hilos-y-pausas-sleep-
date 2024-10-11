@@ -18,5 +18,6 @@ public class Principal {
                 throw new RuntimeException(e);
             }
         }
+        System.out.println("Fin de ejecucion del programa principal");
     }
 }
